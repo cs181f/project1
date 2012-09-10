@@ -7,7 +7,7 @@ For those who don't know, a continuous integration server has a simple goal: aut
 
 At the moment, setting up a continuous integration server is one of the most time consuming, and painful, parts of creating a strong software configuration management environment. Nevertheless, if you ask any software engineering guru, they will tell you that the constant testing feedback a CI server provides is worth the pain. 
 
-A variety of options exist, most notably Jenkins, but each choice comes with a variety of weaknesses. Some solutions are closed source; others are no longer maintained; some only support a few languages; others have extremely limited ability to complete custom builds. Each has it's own problems, but it seems that everyone of them suffers from the same fatal flaw: an impossibly hard installation and configuration process.
+A variety of options exist, most notably Jenkins, but each choice comes with a variety of weaknesses. Some solutions are closed source; others are no longer maintained; some only support a few languages; others have extremely limited ability to complete custom builds. Each has its own problems, but it seems that every one of them suffers from the same fatal flaw: an impossibly hard installation and configuration process.
 
 With so many flawed solutions on the market, developers are constantly searching for a better alternative: that's where Rosie comes in. The three of us have all struggled with continuous integration servers; we've experienced the problems personally, and we're ready to build a better option.
 
