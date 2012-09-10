@@ -14,3 +14,7 @@ With so many flawed solutions on the market, developers are constantly searching
 Judging by the current crop of products, one might think that building a CI server would be a daunting task—perhaps one that would be over our heads—but we think otherwise. Our plan is to cut out the cruft: we'll design and build a simple, easy-to-use, and clean CI server that does what you need...and no more. A friendly web UI for running and examining builds, a speedy backend build queue and queue manager to handle all of the nitty gritty details, and a single command installation interface. Between the three of us, we have all the relevant experience in server management and web development to successfully create such a product.
 
 As we mentioned above, this project is personal: we've had enough of the crappy CI server solutions and we're excited to build an awesome alternative.
+
+======
+
+Project managers: Brennen Byrne (@brennenbyrne), Jesse Pollak (@jessepollak), and Linnea Shin (@dunvi).
