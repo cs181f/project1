@@ -1,4 +1,4 @@
-Rose
+Rosie
 ======
 
 ## The continuous integration server of the future.
