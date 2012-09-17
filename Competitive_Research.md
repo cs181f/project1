@@ -60,10 +60,9 @@ Bamboo is a proprietary CI system created by Atlassian.
 
 Strengths:
 
-* compatible with major build engines and vcs (?dunvi)
+* compatible with major build engines and vcs
 * clean and intuitive user intaface
 * add ons for extending capabilities
-* heavily integrated branching management (?dunvi)
 
 Weaknesses:
 
@@ -95,7 +94,7 @@ Integrity is an open source CI server.
 Strengths:
 
 * GitHub support
-* supports and project which can return build error and success codes
+* supports any project which can return build error and success codes
 * easy configuration
 * easy deployment to Heroku
 * open source
