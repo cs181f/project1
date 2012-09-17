@@ -25,6 +25,7 @@ Hudson has hundreds, if not thousands of plugins, that allow you to add practica
 Weaknesses:
 
 * hard set up and configuration
+* web UI is very convoluted
 
 Being so old, and so customizable, it is very easy for a beginner to get lost when trying to install and set up and Hudson server.
 
@@ -79,6 +80,7 @@ Strengths:
 * easy git and GitHub integration
 * build any language
 * campfire triggers
+* easy to access pre and post build triggers
 
 Weaknesses:
 
@@ -136,6 +138,7 @@ Strengths:
 Weaknesses:
 
 * requires installation and usage of Jenkins server (see weaknesses and strengths for Jenkins above)
+* only manageable through hubot (no web UI)
 
 # CruiseControl
 
@@ -153,8 +156,23 @@ Weaknesses:
 * not actively maintained
 * only support Java, .NET and Ruby
 
+# Summary and Conclusions
 
-* only manageable through hubot (no web UI)
+Combined, the variety of CI solutions currently on the market have all the features you could ever want in a CI server. Apart however, consumers are forced to pick and choose which problems they will endure to gain certain advantages. We hope to pick and choose the following strengths when designing Rosie:
 
+* single line installation and deployment
 
+For many of the available solutions, installation involves installing the multitude of dependencies for the software before you can ever begin installing it. These installations are often hard to replicate, can take a long time, and dissuade any sensible user from using the product. With single line installation, users will be able to get something up and running in minutes and then go from there. Furthermore, we want to hook up with Heroku, so in minutes you can have a CI server running live on the web.
+
+* intuitive web UI for configuration and build monitoring
+
+Many of the available solutions force you to configure important settings manually in the code—a serious hassle. With an easy to use web UI, we hope to make settings easily accessible and configurable. Furthermore, we want you to know the status of your builds in a single glance—no more digging through layers of UI to get to the important information.
+
+* easy integration with Git and GitHub
+
+Many products do this right, so we'll follow their lead and do it as well. Git and GitHub have pretty much become the standard for version control and easy integration with these services is a must.
+
+* open ended pre and post build triggers
+
+While we want Rosie to be easy to setup, we also want users to have all the control when it comes to the service. With easy to access and set up pre and post build triggers, we'll make it easy to do anything with the code and information Rosie interacts with.
 
